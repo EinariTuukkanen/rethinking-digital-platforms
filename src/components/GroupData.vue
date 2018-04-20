@@ -9,8 +9,7 @@
                 <p class="description">Your posts show that you identify strongly as being left based on your behaviour.</p>
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
                     View details
-                </button>    
-                
+                </button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="rounded-circle" src="https://1.gravatar.com/avatar/4c7368542982f0f081be48fc19e1fbfb?s=256&d=identicon&r=G" alt="Generic placeholder image" width="140" height="140">
@@ -18,7 +17,7 @@
                 <p class="description">Very likely a partner or best friend. You keep in touch and connect more than with your other friends.</p>
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
                     View details
-                </button>    
+                </button>
 
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
@@ -27,7 +26,7 @@
                 <p class="description">It seems you're strongly into sports and your favorite team seems to be HIFK.</p>
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
                     View details
-                </button>                
+                </button>
             </div><!-- /.col-lg-4 -->
         </div>
         <br />
@@ -127,9 +126,6 @@
                     </a>
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" checked value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">
-                            
-                        </label>
                     </div>
                 </li>
                 <div class="collapse" id="multiCollapseExample1">
@@ -142,9 +138,6 @@
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" checked value="" id="defaultCheck2">
-                                    <label class="form-check-label" for="defaultCheck2">
-                                                                                
-                                    </label>
                                 </div>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -154,9 +147,6 @@
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" checked value="" id="defaultCheck3">
-                                    <label class="form-check-label" for="defaultCheck3">
-                                                                                
-                                    </label>
                                 </div>
                             </li>
                         </ul>
@@ -168,9 +158,6 @@
                     </a>
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" checked value="" id="defaultCheck4">
-                        <label class="form-check-label" for="defaultCheck4">
-                                                        
-                        </label>
                     </div>
                 </li>
                 <div class="collapse" id="multiCollapseExample2">
@@ -182,9 +169,6 @@
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" checked value="" id="defaultCheck5">
-                                    <label class="form-check-label" for="defaultCheck5">
-                                                                                
-                                    </label>
                                 </div>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -193,9 +177,6 @@
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" checked value="" id="defaultCheck6">
-                                    <label class="form-check-label" for="defaultCheck6">
-                                                                                
-                                    </label>
                                 </div>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -204,9 +185,6 @@
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" checked value="" id="defaultCheck6">
-                                    <label class="form-check-label" for="defaultCheck6">
-                                                                                
-                                    </label>
                                 </div>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -215,9 +193,6 @@
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" checked value="" id="defaultCheck6">
-                                    <label class="form-check-label" for="defaultCheck6">
-                                                                                
-                                    </label>
                                 </div>
                             </li>
                         </ul>
@@ -229,9 +204,6 @@
                     </a>
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" checked value="" id="defaultCheck7">
-                        <label class="form-check-label" for="defaultCheck7">
-                                                                    
-                        </label>
                     </div>
                 </li>
                 <div class="collapse" id="multiCollapseExample3">
@@ -243,9 +215,6 @@
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" checked value="" id="defaultCheck8">
-                                    <label class="form-check-label" for="defaultCheck8">
-                                                                                
-                                    </label>
                                 </div>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -254,9 +223,6 @@
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" checked value="" id="defaultCheck9">
-                                    <label class="form-check-label" for="defaultCheck9">
-                                                                                
-                                    </label>
                                 </div>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -265,9 +231,6 @@
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" checked value="" id="defaultCheck9">
-                                    <label class="form-check-label" for="defaultCheck9">
-                                                                                
-                                    </label>
                                 </div>
                             </li>
                         </ul>
