@@ -21,9 +21,9 @@
             <li>19 ads shown</li>
             <li>8 target groups</li>
           </ul>
-          <a href="list">
+          <router-link to="list">
             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="card mb-4 box-shadow">
@@ -38,9 +38,9 @@
             <li>182 entries of data to check</li>
             <li>One click removal</li>
           </ul>
-          <a href="groups">
+          <router-link to="groups">
             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="card mb-4 box-shadow">
