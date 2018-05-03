@@ -17,8 +17,8 @@
             This includes all the content shared by you as well as automatically collected metadata and tracking data from third-party applications.</p>
             <p>Start by browsing the data below and select the data you want to save.
             When you're done, use the buttons below to either permanently remove all the data you selected or just hide them.</p>
-            <button type="button" class="btn btn-lg btn-danger">Remove Data</button>
-            <button type="button" class="btn btn-outline-danger btn-lg">Hide Data</button>
+            <button type="button" class="btn btn-lg btn-danger" data-toggle="modal" data-target="#modalRemove">Remove Data</button>
+            <button type="button" class="btn btn-outline-danger btn-lg" data-toggle="modal" data-target="#modalHide">Hide Data</button>
         </div>
     </div>
     <div class="container">
@@ -45,6 +45,45 @@
             <div class="tab-pane fade" id="pills-likes" role="tabpanel" aria-labelledby="pills-likes-tab"><item-grid :data="data.likes" :image="false"></item-grid></div>
             <div class="tab-pane fade" id="pills-meta" role="tabpanel" aria-labelledby="pills-meta-tab"><item-grid :data="data.metadata" :image="false"></item-grid></div>
             <div class="tab-pane fade" id="pills-thirdparty" role="tabpanel" aria-labelledby="pills-thirdparty-tab"><item-grid :data="data.thirdparty" :image="false"></item-grid></div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalRemove" tabindex="-1" role="dialog" :aria-labelledby="'modal'+index" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Remove {{ data.keyword }}?</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure you want to remove all selected data? If yes, choose whether you want to use our premium GDPR-compatible hard removal tool or just regular API tools. The process may take up to 24 hours to be fully completed.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                    <router-link to="/">
+                        <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Remove Data</button>
+                    </router-link>
+                    <router-link to="/">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Hard Remove Data with GDPR</button>
+                    </router-link>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalHide" tabindex="-1" role="dialog" :aria-labelledby="'modal'+index" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Hide {{ data.keyword }}?</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure you want to hide all selected data? Hiding is performed using the service's open API. The process may take up to 24 hours to be fully completed.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                    <router-link to="/">
+                        <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Hide Data</button>
+                    </router-link>
+                </div>
+            </div>
         </div>
     </div>
     <br />

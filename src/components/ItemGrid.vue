@@ -10,7 +10,7 @@
             <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" :data-target="'#modal'+item.id">View</button>
             <button type="button" data-toggle="button" class="delete-button btn btn-sm btn-outline-secondary active" style=""><span></span></button>
           </div>
-          <small class="text-muted">{{ item.timestamp }}</small>
+          <small class="text-muted">{{ item.timestamp }}</small>
         </div>
       </div>
     </div>
