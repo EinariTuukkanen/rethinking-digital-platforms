@@ -9,7 +9,6 @@
       <router-link class="nav-item nav-link active" to="/">Home</router-link>
       <router-link to="list" class="nav-item nav-link" href="/list">List Data</router-link>
       <router-link class="nav-item nav-link" to="/groups">Remove Data</router-link>
-      <router-link class="nav-item nav-link disabled" to="/">Active Protection</router-link>
     </div>
   </div>
 </nav>

@@ -24,9 +24,9 @@
                 <img class="rounded-circle" src="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/ff/49/41/ff4941f3-cecd-9b9b-b1d7-b939b2ef045a/source/256x256bb.jpg" alt="Generic placeholder image" width="140" height="140">
                 <h1 class="card-title pricing-card-title">44% <small class="text-muted">sports team</small></h1>
                 <p class="description">It seems you're strongly into sports and your favorite team seems to be HIFK.</p>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
-                    View details
-                </button>
+                <router-link to="details">
+                    <button type="button" class="btn btn-primary">View details</button>
+                </router-link>
             </div><!-- /.col-lg-4 -->
         </div>
         <br />
