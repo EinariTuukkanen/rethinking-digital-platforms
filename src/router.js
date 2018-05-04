@@ -7,7 +7,7 @@ import Details from './components/Details.vue'
 
 Vue.use(Router)
 
-export default new Router({
+const router = new Router({
   routes: [
     {
       path: '/',
@@ -32,3 +32,13 @@ export default new Router({
     }
   ]
 })
+
+// Auto scroll to page top
+router.beforeEach(function (to, from, next) {
+  setTimeout(() => {
+    window.scrollTo(0, 0)
+  }, 100)
+  next()
+})
+
+export default router
