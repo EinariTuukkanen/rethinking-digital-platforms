@@ -21,6 +21,6 @@
 <script>
 export default {
   name: 'ItemModal',
-  props: ['data', 'index'],
+  props: ['data', 'index']
 }
 </script>

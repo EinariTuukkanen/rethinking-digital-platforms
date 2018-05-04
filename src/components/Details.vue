@@ -103,45 +103,45 @@ import Navigation from './Navigation'
 import ItemGrid from './ItemGrid'
 
 export default {
-    name: 'Details',
-    components: {
-        Navigation,
-        ItemGrid
-    },
-    props: ['data'],
-    methods:{
-        /* eslint-disable */
-        initChart() {
-            //pie
-            var ctxP = document.getElementById("pieChart").getContext('2d');
-            var myPieChart = new Chart(ctxP, {
-                type: 'pie',
-                data: {
-                    labels: ["Photos", "Posts", "Likes", "Metadata", "Third-party sites/apps"],
-                    datasets: [
-                        {
-                            data: [
-                                this.data.photos.length, 
-                                this.data.posts.length, 
-                                this.data.likes.length, 
-                                this.data.metadata.length, 
-                                this.data.thirdparty.length
-                            ],
-                            backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
-                            hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]
-                        }
-                    ]
-                },
-                options: {
-                    responsive: true
-                }    
-            });
-        }
-        /* eslint-enable */
-    },
-    mounted() {
-        this.initChart()
+  name: 'Details',
+  components: {
+    Navigation,
+    ItemGrid
+  },
+  props: ['data'],
+  methods: {
+  /* eslint-disable */
+  initChart() {
+      //pie
+      var ctxP = document.getElementById("pieChart").getContext('2d');
+      var myPieChart = new Chart(ctxP, {
+          type: 'pie',
+          data: {
+              labels: ["Photos", "Posts", "Likes", "Metadata", "Third-party sites/apps"],
+              datasets: [
+                  {
+                      data: [
+                          this.data.photos.length, 
+                          this.data.posts.length, 
+                          this.data.likes.length, 
+                          this.data.metadata.length, 
+                          this.data.thirdparty.length
+                      ],
+                      backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
+                      hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]
+                  }
+              ]
+          },
+          options: {
+              responsive: true
+          }    
+      });
     }
+  /* eslint-enable */
+  },
+  mounted () {
+    this.initChart()
+  }
 }
 </script>
 

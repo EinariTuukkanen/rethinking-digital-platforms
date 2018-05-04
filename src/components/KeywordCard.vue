@@ -37,16 +37,16 @@ import LevelMeter from './LevelMeter'
 import router from '../router'
 
 export default {
-    name: 'KeywordCard',
-    components: {
-        LevelMeter
-    },
-    props: ['data'],
-    methods: {
-      viewDetails() {
-        router.push({ name: 'details', params: { data: this.data }});
-      }
+  name: 'KeywordCard',
+  components: {
+    LevelMeter
+  },
+  props: ['data'],
+  methods: {
+    viewDetails () {
+      router.push({name: 'details', params: { data: this.data }})
     }
+  }
 }
 </script>
 
@@ -56,6 +56,6 @@ export default {
   text-align: center;
 }
 .card {
-  cursor: pointer; 
+  cursor: pointer;
 }
 </style>
